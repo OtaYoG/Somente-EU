@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html{
+	height: 100%;
+	margin: 0;
+	font-size: 20px;
+	font-family: "Old Standard TT", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+
+.pimg1, .pimg2, .pimg3{
+	position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    /* fixed = parallax e scroll = normal */
+}
+
+.pimg1{
+	background-image: url("img/img1.jpg");
+	min-height: 100%;
+}
+
+.pimg2{
+	background-image: url("img/img2.jpg");
+	min-height: 400px;
+}
+
+.pimg3{
+	background-image: url("img/img3.jpg");
+	min-height: 400px;
+}
+
+.section{
+	text-align: center;
+	padding: 50px 80px;
+}
+
+
+
+.section-dark{
+	background-color: #282e34;
+	color: #ddd;
+}
+
+
+.ptext{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #ffffff;
+	font-size: 35px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+
+.ptextend{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #ffffff;
+	font-size: 35px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
